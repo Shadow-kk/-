@@ -31,12 +31,14 @@
 In [68]:
 
 ## 导入所有必要的包和函数。
+```python
 import csv # 读写 csv 文件
 from datetime import datetime # 日期解析操作
 from pprint import pprint # 用于输出字典等数据结构
                           # 这比 base print 函数要好用。
 import numpy as np
 import pandas as pd
+```
 In [69]:
 
 def print_first_point(filename):
